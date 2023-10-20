@@ -1,0 +1,93 @@
+$custom-yellow: #e8af20 
+
+
+.side-navigation
+  box-shadow: 0 3px 12px 0 rgba(0,0,0,.3)
+  display: flex
+  width: 66px
+  height: 100vh
+  position: fixed
+  background-color: #1e0c1b
+  font-weight: 700
+  font-size: 10px  
+  
+  &__container
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    padding: 15px 0px
+  &__top
+    display: flex
+    flex-direction: column
+    align-items: center
+
+  &__logo-item
+    text-align: center
+    margin-bottom: 15px
+
+  &__logo-svg
+    width: 30px
+    margin-bottom: 3px
+
+  &__loop-item
+    margin-bottom: 5px
+  &__loop-svg
+    width: 30px
+    height: 30px
+    fill: $custom-yellow
+  &__icons-container
+    width: 100%
+
+  &__icon-item
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+    margin-bottom: 20px
+  
+  .navigation_icon_link
+    display: flex
+    flex-direction: column
+    align-items: center
+
+
+  &__svg
+    fill: white 
+    width: 24px
+    height: 24px
+    margin-bottom: 5px
+
+  &__create-item
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+  &__create-svg
+    fill: white
+    width: 20px
+    height: 20px
+    margin-bottom: 5px
+  &__create-label
+    color: white
+    text-align: center
+  &__label
+    color: $custom-yellow
+  
+  &__profile-svg
+    width: 25px
+    height: 25px
+    fill: white
+
+  &__profile-item
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+  .with-background
+    background: rgb(89 83 88 / 50%)
+    border : 8px rgb(89 83 88 / 0%) solid
+    border-radius: 30px
+  
+  .with-border
+    border: 2px white solid
+    border-radius: 30px
